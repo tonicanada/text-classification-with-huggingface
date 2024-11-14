@@ -5,10 +5,15 @@ Este repositorio contiene dos notebooks prácticos que ilustran cómo crear clas
 ## Contenido del repositorio
 
 1. **Tutorial para crear un clasificador de texto binario**  
-   Un notebook paso a paso que explica cómo entrenar un modelo para clasificar texto en dos clases. En concreto, se toma como base el modelo `distilbert/distilbert-base-uncased`, un modelo optimizado y ligero de BERT, y se entrena con 250 frases. Algunas de las frases son sobre comida, y otras no. El modelo final clasifica cada frase en inglés como `food` o `not food`.
+   Un notebook paso a paso que explica cómo entrenar un modelo para clasificar texto en dos clases. En concreto, se toma como base el modelo `distilbert/distilbert-base-uncased` y se entrena con 250 frases para clasificar una frase en inglés como `food` o `not food`.
+
+   - Demo en línea: [Clasificador Food vs Not Food](https://huggingface.co/spaces/tonicanada/learn_hf_food_not_food_text_classifier_demo)
 
 2. **Tutorial para crear un clasificador de texto multiclase**  
-   Una guía práctica para entrenar un modelo capaz de clasificar texto en múltiples categorías. Se utiliza `distilbert/distilbert-base-multilingual-cased` como base, entrenándolo con 250 frases relacionadas con asignaturas escolares (Religión, Lengua y literatura, Educación Física, Artes, Idiomas extranjeros, Historia, Geografía, Física y química, Matemáticas). El modelo final predice la asignatura a la que pertenece una frase en español y, si no encaja en ninguna, también lo detecta.
+   Una guía práctica para entrenar un modelo capaz de clasificar texto en múltiples categorías relacionadas con asignaturas escolares. Se utiliza `distilbert/distilbert-base-multilingual-cased` como base y se entrena con 250 frases en español.
+
+   - Demo en línea: [Clasificador por Asignaturas](https://huggingface.co/spaces/tonicanada/learn_hf_spanish_sentence_classification_by_school_subject_demo)
+
 
 ## ¿Por qué usar Transfer Learning?
 
